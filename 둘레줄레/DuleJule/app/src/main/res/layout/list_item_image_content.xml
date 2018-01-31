@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="7dp"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="0dp"
+    android:layout_marginTop="7dp"
+    card_view:cardCornerRadius="20dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageview_content_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:padding="10dp"
+            android:background="@drawable/border_white_black" />
+
+
+        <TextView
+            android:id="@+id/textview_content_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/border_white_black"
+            android:gravity="center"
+            android:text="TITLE"
+            android:textSize="20sp"
+            android:maxLines="2"
+            android:textStyle="bold"
+            app:font="NanumBarunGothicBold"
+            android:minLines="2" />
+
+        <TextView
+            android:id="@+id/textview_content_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/border_white_black"
+            android:gravity="center"
+            android:text="DATE"
+            android:textSize="18sp"
+            android:maxLines="2"
+            app:font="NanumBarunGothic"
+            android:minLines="2" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
